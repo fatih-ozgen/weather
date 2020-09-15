@@ -1,14 +1,15 @@
-# Project Title
+# Fatih's Weather App
 
-One Paragraph of project description goes here
+When user enters country, app displays the capital city and its air temperature.
 
 ## Getting Started
 
-These instructions will get you a copy of the project up and running on your local machine for development and testing purposes. See deployment for notes on how to deploy the project on a live system.
+Application is simple python written code.
 
 ### Prerequisites
 
-What things you need to install the software and how to install them
+1- API_KEY from https://weatherstack.com 
+2- 
 
 ```
 Give examples
@@ -18,53 +19,42 @@ Give examples
 
 A step by step series of examples that tell you how to get a development env running
 
-Say what the step will be
+1 - Enter the command in terminal to use WEATHER_API_KEY
 
 ```
-Give the example
+export WEATHER_API_KEY="your_weather_api_key"
 ```
 
-And repeat
+2- Install and activate virtual environment for app
+
+Install virtualenv
 
 ```
-until finished
+virtualenv venv
 ```
 
-End with an example of getting some data out of the system or using it for a little demo
-
-## Running the tests
-
-Explain how to run the automated tests for this system
-
-### Break down into end to end tests
-
-Explain what these tests test and why
+Activate virtualenv
 
 ```
-Give an example
+source venv/bin/activate
 ```
 
-### And coding style tests
 
-Explain what these tests test and why
+3- Install requests library for python
 
 ```
-Give an example
+pip install requests
+
 ```
 
-## Deployment
+4- Run the application
 
-Add additional notes about how to deploy this on a live system
+```
+python3 weather_app.py
 
-## Built With
 
-* [Dropwizard](http://www.dropwizard.io/1.0.2/docs/) - The web framework used
-* [Maven](https://maven.apache.org/) - Dependency Management
-* [ROME](https://rometools.github.io/rome/) - Used to generate RSS Feeds
 
-## Contributing
-
-Please read [CONTRIBUTING.md](https://gist.github.com/PurpleBooth/b24679402957c63ec426) for details on our code of conduct, and the process for submitting pull requests to us.
+##
 
 ## Versioning
 
