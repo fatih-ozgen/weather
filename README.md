@@ -9,6 +9,7 @@ Application is simple python written code.
 ### Prerequisites
 
 1- API_KEY from https://weatherstack.com 
+
 2- Python version > 3.6
 
 ### Installing
