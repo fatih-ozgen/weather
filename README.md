@@ -43,6 +43,23 @@ pip install requests
 ```
 python3 weather_app.py
 
+```
+
+
+### Using Application
+
+After running application with by
+
+```
+python3 weather_app.py
+```
+
+Enter country name 
+
+```
+Example: Finland
+```
+
 
 
 ## License
